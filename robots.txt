@@ -1,0 +1,15 @@
+User-Agent: *
+Disallow: /page46565199.html
+Disallow: /page46565881.html
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow:
+
+
+Sitemap: https://arental.tilda.ws/sitemap.xml

@@ -1,0 +1,47 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page46229145.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/project9058591/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^apt$ page46565087.html [NC]
+RewriteRule ^apt/$ page46565087.html [NC]
+
+RewriteRule ^redev$ page46571763.html [NC]
+RewriteRule ^redev/$ page46571763.html [NC]
+
+RewriteRule ^mc$ page46571987.html [NC]
+RewriteRule ^mc/$ page46571987.html [NC]
+
+RewriteRule ^presentation$ page48847295.html [NC]
+RewriteRule ^presentation/$ page48847295.html [NC]
+
+RewriteRule ^dev1$ page52709225.html [NC]
+RewriteRule ^dev1/$ page52709225.html [NC]
+
+RewriteRule ^dev2$ page52710875.html [NC]
+RewriteRule ^dev2/$ page52710875.html [NC]
+
+RewriteRule ^dev3$ page52712493.html [NC]
+RewriteRule ^dev3/$ page52712493.html [NC]
+
+RewriteRule ^dev4$ page52713347.html [NC]
+RewriteRule ^dev4/$ page52713347.html [NC]
+
+RewriteRule ^dev5$ page52713893.html [NC]
+RewriteRule ^dev5/$ page52713893.html [NC]
+
+RewriteRule ^dev6$ page52717479.html [NC]
+RewriteRule ^dev6/$ page52717479.html [NC]
+
+RewriteRule ^study$ page73153087.html [NC]
+RewriteRule ^study/$ page73153087.html [NC]
+
+
